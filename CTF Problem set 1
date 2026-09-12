@@ -1,0 +1,19 @@
+Question 1 
+1. Lets Warm UpProblem: 
+"If I told you a word started with 0x70 in hexadecimal,
+ Computers represent characters using numerical codes.
+jusy use "print(chr(0x70))" on your terminal 
+
+
+Question 2 
+
+2. 2warmProblem: "Can you convert the number 42 (base 10) to binary (base 2) The full flag format will be picoCTF{binary digit})Explanation:
+Converting the decimal number 42 into base-2 binary format yields 101010.
+You can find this by breaking 42 down into powers of two (32 + 8 + 2).
+
+
+Question 3
+
+3. Warmed UpProblem: "What is 0x3D (base 16) in decimal (base 10) 
+Hexadecimal is base-16. To convert 0x3D to decimal, multiply the position values: \((3 \times 16^1) + (D \times 16^0)\).
+Since D = 13 in hex, the math is 48 + 13 = 61.
