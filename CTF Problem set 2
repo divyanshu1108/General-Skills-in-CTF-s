@@ -1,0 +1,39 @@
+Question 1 
+
+Concept: Establishing raw network connections over the internet.
+Problem:You are given a server link and a port number (e.g., jupiter.challenges.picoctf.org 41120).
+use this in your terminal
+nc jupiter.challenges.picoctf.org 41120
+it will print the flag
+Explanation: 
+The nc (Netcat) tool allows you to read and write data across network connections.
+Running this command opens a portal to the server, which automatically prints out the text flag
+
+
+Question 2
+
+Concept: Extracting printable text characters out of a compiled binary file.
+Problem: You are given an executable file that outputs an error when executed, but contains the flag embedded within its code layers.
+use this in terminal
+strings strings_file | grep "picoCTF"
+Explanation:
+The strings utility scans static binaries and returns any readable text it finds. 
+Piping that output into grep screens out the garbage code and returns the precise flag line.
+
+Question 3
+
+soloution
+use wget in the command pannel and paste the link in your terminal
+then use python3 with file name 
+and solve minal Decimal to binary conversion
+
+Question 4
+
+use nc to access the server 
+like you have to write 
+nc fickel-tempest.picoctf.net 51081
+after this you can get tthe flag in your termina
+
+
+
+
